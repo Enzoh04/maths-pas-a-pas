@@ -113,6 +113,12 @@ nav:
           - Méthodes: seconde/fonctions-reference/methodes.md
           - Exercices corrigés: seconde/fonctions-reference/exercices.md
           - Évaluations type: seconde/fonctions-reference/bac.md
+      - "Ch. 8 – Information chiffrée et statistiques":
+          - seconde/statistiques/index.md
+          - Cours: seconde/statistiques/cours.md
+          - Méthodes: seconde/statistiques/methodes.md
+          - Exercices corrigés: seconde/statistiques/exercices.md
+          - Évaluations type: seconde/statistiques/bac.md
   - Première:
       - premiere/index.md
       - "Ch. 1 – Suites numériques":

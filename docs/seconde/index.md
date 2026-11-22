@@ -34,7 +34,7 @@ Les chapitres suivent le **nouveau programme** de mathématiques de Seconde gén
 
 | N° | Chapitre | État |
 |---|---|---|
-| 8 | Information chiffrée et statistiques | ⏳ |
+| 8 | [Information chiffrée et statistiques](statistiques/index.md) | ✅ |
 | 9 | Probabilités | ⏳ |
 
 ## Transversal
