@@ -95,6 +95,12 @@ nav:
           - Méthodes: premiere/variations/methodes.md
           - Exercices corrigés: premiere/variations/exercices.md
           - Sujets type épreuve anticipée: premiere/variations/bac.md
+      - "Ch. 5 – Fonction exponentielle":
+          - premiere/exponentielle/index.md
+          - Cours: premiere/exponentielle/cours.md
+          - Méthodes: premiere/exponentielle/methodes.md
+          - Exercices corrigés: premiere/exponentielle/exercices.md
+          - Sujets type épreuve anticipée: premiere/exponentielle/bac.md
   - Terminale:
       - terminale/index.md
       - "Ch. 1 – Suites":
