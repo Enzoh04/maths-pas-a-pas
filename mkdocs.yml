@@ -107,6 +107,12 @@ nav:
           - Méthodes: premiere/trigonometrie/methodes.md
           - Exercices corrigés: premiere/trigonometrie/exercices.md
           - Sujets type épreuve anticipée: premiere/trigonometrie/bac.md
+      - "Ch. 7 – Produit scalaire":
+          - premiere/produit-scalaire/index.md
+          - Cours: premiere/produit-scalaire/cours.md
+          - Méthodes: premiere/produit-scalaire/methodes.md
+          - Exercices corrigés: premiere/produit-scalaire/exercices.md
+          - Sujets type épreuve anticipée: premiere/produit-scalaire/bac.md
   - Terminale:
       - terminale/index.md
       - "Ch. 1 – Suites":
