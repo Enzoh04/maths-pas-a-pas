@@ -89,6 +89,12 @@ nav:
           - Méthodes: seconde/equations-inequations/methodes.md
           - Exercices corrigés: seconde/equations-inequations/exercices.md
           - Évaluations type: seconde/equations-inequations/bac.md
+      - "Ch. 4 – Vecteurs":
+          - seconde/vecteurs/index.md
+          - Cours: seconde/vecteurs/cours.md
+          - Méthodes: seconde/vecteurs/methodes.md
+          - Exercices corrigés: seconde/vecteurs/exercices.md
+          - Évaluations type: seconde/vecteurs/bac.md
   - Première:
       - premiere/index.md
       - "Ch. 1 – Suites numériques":
