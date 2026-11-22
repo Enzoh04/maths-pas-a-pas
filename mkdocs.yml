@@ -64,6 +64,11 @@ extra_css:
 nav:
   - Accueil: index.md
   - Avertissement: avertissement.md
+  - Programmes officiels:
+      - programmes/index.md
+      - Seconde: programmes/seconde.md
+      - Première: programmes/premiere.md
+      - Terminale: programmes/terminale.md
   - Première:
       - premiere/index.md
       - "Ch. 1 – Suites numériques":
@@ -72,6 +77,12 @@ nav:
           - Méthodes: premiere/suites/methodes.md
           - Exercices corrigés: premiere/suites/exercices.md
           - Sujets type épreuve anticipée: premiere/suites/bac.md
+      - "Ch. 2 – Second degré":
+          - premiere/second-degre/index.md
+          - Cours: premiere/second-degre/cours.md
+          - Méthodes: premiere/second-degre/methodes.md
+          - Exercices corrigés: premiere/second-degre/exercices.md
+          - Sujets type épreuve anticipée: premiere/second-degre/bac.md
   - Terminale:
       - terminale/index.md
       - "Ch. 1 – Suites":

@@ -19,7 +19,7 @@ Les chapitres suivent le **nouveau programme** de spécialité mathématiques de
 | N° | Chapitre | État |
 |---|---|---|
 | 1 | [Suites numériques, modèles discrets](suites/index.md) | ✅ |
-| 2 | Équations, fonctions polynômes du second degré | ⏳ |
+| 2 | [Équations, fonctions polynômes du second degré](second-degre/index.md) | ✅ |
 
 ## Analyse
 
