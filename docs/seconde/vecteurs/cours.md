@@ -154,7 +154,7 @@ On munit le plan d'un repère $(O\,;\,\vec{\imath},\,\vec{\jmath})$. Le repère 
 
 ## 6. Pour aller plus loin
 
-- **Droites du plan.** Le critère de colinéarité donne l'équation d'une droite ([chapitre 5](../index.md)).
+- **Droites du plan.** Le critère de colinéarité donne l'équation d'une droite ([chapitre 5](../droites/index.md)).
 - **Le déterminant et les aires.** $|\det(\vec{u}, \vec{v})|$ est l'**aire** du parallélogramme construit sur $\vec{u}$ et $\vec{v}$ (en repère orthonormé) : il est nul exactement quand le parallélogramme est aplati.
 - **En physique.** Forces, vitesses, déplacements sont des grandeurs **vectorielles** : la somme des forces se calcule avec la règle du parallélogramme.
 - **En Première**, le **produit scalaire** permettra de calculer des angles et de caractériser l'orthogonalité ([Première, chapitre 7](../../premiere/produit-scalaire/index.md)).

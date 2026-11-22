@@ -21,7 +21,7 @@ Les chapitres suivent le **nouveau programme** de mathématiques de Seconde gén
 | N° | Chapitre | État |
 |---|---|---|
 | 4 | [Vecteurs](vecteurs/index.md) | ✅ |
-| 5 | Droites du plan | ⏳ |
+| 5 | [Droites du plan](droites/index.md) | ✅ |
 
 ## Fonctions
 
