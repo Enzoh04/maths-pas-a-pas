@@ -35,7 +35,7 @@ Les chapitres suivent le **nouveau programme** de spécialité mathématiques de
 | N° | Chapitre | État |
 |---|---|---|
 | 7 | [Calcul vectoriel et produit scalaire](produit-scalaire/index.md) | ✅ |
-| 8 | Géométrie repérée | ⏳ |
+| 8 | [Géométrie repérée](geometrie-reperee/index.md) | ✅ |
 
 ## Probabilités et statistiques
 

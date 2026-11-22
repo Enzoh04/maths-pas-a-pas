@@ -228,7 +228,7 @@ La formule $\overrightarrow{MA} \cdot \overrightarrow{MB} = MI^2 - \frac{AB^2}{4
 
 ## 11. Pour aller plus loin
 
-- **Géométrie repérée.** Le produit scalaire donne l'équation d'une droite à partir d'un **vecteur normal** et l'équation d'un cercle ([chapitre 8](../index.md)).
+- **Géométrie repérée.** Le produit scalaire donne l'équation d'une droite à partir d'un **vecteur normal** et l'équation d'un cercle ([chapitre 8](../geometrie-reperee/index.md)).
 - **Dans l'espace.** Toutes les formules restent vraies dans l'espace, avec trois coordonnées : $\vec{u} \cdot \vec{v} = xx' + yy' + zz'$ ([orthogonalité dans l'espace, Terminale](../../terminale/orthogonalite-espace/index.md)).
 - **Formules d'addition.** Avec deux vecteurs unitaires d'angles $a$ et $b$, le produit scalaire calculé de deux façons donne $\cos(b - a) = \cos a\cos b + \sin a\sin b$.
 - **En physique.** Le **travail** d'une force constante $\vec{F}$ le long d'un déplacement $\overrightarrow{AB}$ est $W = \vec{F} \cdot \overrightarrow{AB}$ : seule la composante de la force dans la direction du mouvement travaille.

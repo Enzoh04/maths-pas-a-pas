@@ -113,6 +113,12 @@ nav:
           - Méthodes: premiere/produit-scalaire/methodes.md
           - Exercices corrigés: premiere/produit-scalaire/exercices.md
           - Sujets type épreuve anticipée: premiere/produit-scalaire/bac.md
+      - "Ch. 8 – Géométrie repérée":
+          - premiere/geometrie-reperee/index.md
+          - Cours: premiere/geometrie-reperee/cours.md
+          - Méthodes: premiere/geometrie-reperee/methodes.md
+          - Exercices corrigés: premiere/geometrie-reperee/exercices.md
+          - Sujets type épreuve anticipée: premiere/geometrie-reperee/bac.md
   - Terminale:
       - terminale/index.md
       - "Ch. 1 – Suites":
