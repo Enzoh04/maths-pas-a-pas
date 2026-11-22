@@ -148,7 +148,7 @@ Avec $k > 0$, c'est une **croissance exponentielle** ; avec $k < 0$, une **décr
         h = 1 / n
         y = 1                 # exp(0) = 1
         for k in range(n):
-            y = y + h * y     # y(x + h) ≈ y(x) + h y'(x) = y(x) + h y(x)
+            y = y + h * y     # y(x + h) vaut environ y(x) + h y(x)
         return y
 
     print(euler(10), euler(100), euler(10000))   # 2.5937..., 2.7048..., 2.7181...
