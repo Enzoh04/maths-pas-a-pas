@@ -119,6 +119,12 @@ nav:
           - Méthodes: seconde/statistiques/methodes.md
           - Exercices corrigés: seconde/statistiques/exercices.md
           - Évaluations type: seconde/statistiques/bac.md
+      - "Ch. 9 – Probabilités":
+          - seconde/probabilites/index.md
+          - Cours: seconde/probabilites/cours.md
+          - Méthodes: seconde/probabilites/methodes.md
+          - Exercices corrigés: seconde/probabilites/exercices.md
+          - Évaluations type: seconde/probabilites/bac.md
   - Première:
       - premiere/index.md
       - "Ch. 1 – Suites numériques":

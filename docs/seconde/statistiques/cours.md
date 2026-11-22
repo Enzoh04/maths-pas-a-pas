@@ -164,7 +164,7 @@ Un **tableau croisé d'effectifs** répartit une population selon **deux caract�
     - Une **fréquence conditionnelle** se calcule **à l'intérieur** d'une ligne ou d'une colonne : proportion de sportifs **parmi les filles**, $\frac{120}{200} = 0{,}6$ ; proportion de filles **parmi les sportifs**, $\frac{120}{300} = 0{,}4$.
 
 !!! tip "Repérer la population de référence"
-    Les mots « parmi », « chez les », « sachant que » indiquent la population de référence : c'est elle qui donne le **dénominateur**. Les fréquences conditionnelles préparent les **probabilités conditionnelles** ([chapitre 9](../index.md)).
+    Les mots « parmi », « chez les », « sachant que » indiquent la population de référence : c'est elle qui donne le **dénominateur**. Les fréquences conditionnelles préparent les **probabilités conditionnelles** ([chapitre 9](../probabilites/index.md)).
 
 ---
 
