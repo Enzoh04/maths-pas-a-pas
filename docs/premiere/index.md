@@ -25,7 +25,7 @@ Les chapitres suivent le **nouveau programme** de spécialité mathématiques de
 
 | N° | Chapitre | État |
 |---|---|---|
-| 3 | Dérivation | ⏳ |
+| 3 | [Dérivation](derivation/index.md) | ✅ |
 | 4 | Variations et courbes représentatives | ⏳ |
 | 5 | Fonction exponentielle | ⏳ |
 | 6 | Trigonométrie | ⏳ |

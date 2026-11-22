@@ -83,6 +83,12 @@ nav:
           - Méthodes: premiere/second-degre/methodes.md
           - Exercices corrigés: premiere/second-degre/exercices.md
           - Sujets type épreuve anticipée: premiere/second-degre/bac.md
+      - "Ch. 3 – Dérivation":
+          - premiere/derivation/index.md
+          - Cours: premiere/derivation/cours.md
+          - Méthodes: premiere/derivation/methodes.md
+          - Exercices corrigés: premiere/derivation/exercices.md
+          - Sujets type épreuve anticipée: premiere/derivation/bac.md
   - Terminale:
       - terminale/index.md
       - "Ch. 1 – Suites":
