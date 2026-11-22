@@ -89,6 +89,12 @@ nav:
           - Méthodes: premiere/derivation/methodes.md
           - Exercices corrigés: premiere/derivation/exercices.md
           - Sujets type épreuve anticipée: premiere/derivation/bac.md
+      - "Ch. 4 – Variations et courbes":
+          - premiere/variations/index.md
+          - Cours: premiere/variations/cours.md
+          - Méthodes: premiere/variations/methodes.md
+          - Exercices corrigés: premiere/variations/exercices.md
+          - Sujets type épreuve anticipée: premiere/variations/bac.md
   - Terminale:
       - terminale/index.md
       - "Ch. 1 – Suites":
