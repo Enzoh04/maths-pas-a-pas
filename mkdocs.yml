@@ -101,6 +101,12 @@ nav:
           - Méthodes: premiere/exponentielle/methodes.md
           - Exercices corrigés: premiere/exponentielle/exercices.md
           - Sujets type épreuve anticipée: premiere/exponentielle/bac.md
+      - "Ch. 6 – Trigonométrie":
+          - premiere/trigonometrie/index.md
+          - Cours: premiere/trigonometrie/cours.md
+          - Méthodes: premiere/trigonometrie/methodes.md
+          - Exercices corrigés: premiere/trigonometrie/exercices.md
+          - Sujets type épreuve anticipée: premiere/trigonometrie/bac.md
   - Terminale:
       - terminale/index.md
       - "Ch. 1 – Suites":
