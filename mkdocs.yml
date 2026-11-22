@@ -77,6 +77,12 @@ nav:
           - Méthodes: seconde/nombres-arithmetique/methodes.md
           - Exercices corrigés: seconde/nombres-arithmetique/exercices.md
           - Évaluations type: seconde/nombres-arithmetique/bac.md
+      - "Ch. 2 – Calcul numérique et algébrique":
+          - seconde/calcul-algebrique/index.md
+          - Cours: seconde/calcul-algebrique/cours.md
+          - Méthodes: seconde/calcul-algebrique/methodes.md
+          - Exercices corrigés: seconde/calcul-algebrique/exercices.md
+          - Évaluations type: seconde/calcul-algebrique/bac.md
   - Première:
       - premiere/index.md
       - "Ch. 1 – Suites numériques":
