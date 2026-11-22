@@ -14,7 +14,7 @@ Les chapitres suivent le **nouveau programme** de mathématiques de Seconde gén
 |---|---|---|
 | 1 | [Nombres, ensembles et arithmétique](nombres-arithmetique/index.md) | ✅ |
 | 2 | [Calcul numérique et algébrique](calcul-algebrique/index.md) | ✅ |
-| 3 | Équations et inéquations | ⏳ |
+| 3 | [Équations et inéquations](equations-inequations/index.md) | ✅ |
 
 ## Géométrie
 
