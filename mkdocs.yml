@@ -125,6 +125,10 @@ nav:
           - Méthodes: seconde/probabilites/methodes.md
           - Exercices corrigés: seconde/probabilites/exercices.md
           - Évaluations type: seconde/probabilites/bac.md
+      - "Transversal":
+          - Python: seconde/transversal/python.md
+          - Logique et ensembles: premiere/transversal/logique.md
+          - Automatismes: premiere/transversal/automatismes.md
   - Première:
       - premiere/index.md
       - "Ch. 1 – Suites numériques":

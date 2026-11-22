@@ -41,5 +41,6 @@ Les chapitres suivent le **nouveau programme** de mathématiques de Seconde gén
 
 Le vocabulaire ensembliste et logique, l'algorithmique en Python et les automatismes se travaillent dans tous les chapitres. Les pages de Première sont aussi utiles en Seconde (sauf les notions marquées « Première ») :
 
+- [Algorithmique et programmation en Python](transversal/python.md)
 - [Vocabulaire ensembliste et logique](../premiere/transversal/logique.md)
 - [Automatismes](../premiere/transversal/automatismes.md)

@@ -12,15 +12,15 @@ Le programme comporte **quatre parties thématiques** et **trois parties transve
 
 | Partie | Chapitre du site | Démonstrations au programme |
 |---|---|---|
-| Nombres et calculs | [Nombres, ensembles et arithmétique](../seconde/index.md) | $\frac{1}{3}$ n'est pas un nombre décimal ; $\sqrt{2}$ est irrationnel ; la somme de deux multiples d'un entier est un multiple de cet entier ; le carré d'un nombre impair est impair |
-| Nombres et calculs | [Calcul numérique et algébrique](../seconde/index.md) | $\sqrt{ab} = \sqrt{a}\sqrt{b}$ pour $a$ et $b$ positifs |
-| Algèbre | [Équations et inéquations](../seconde/index.md) | — |
-| Géométrie | [Vecteurs](../seconde/index.md) | Caractérisations de la colinéarité (déterminant) |
-| Géométrie | [Droites du plan](../seconde/index.md) | Forme générale d'une équation de droite |
-| Fonctions | [Généralités sur les fonctions](../seconde/index.md) | — |
-| Fonctions | [Fonctions de référence](../seconde/index.md) | Variations des fonctions carré et inverse |
-| Statistiques | [Information chiffrée et statistiques](../seconde/index.md) | — |
-| Probabilités | [Probabilités](../seconde/index.md) | — |
+| Nombres et calculs | [Nombres, ensembles et arithmétique](../seconde/nombres-arithmetique/index.md) | $\frac{1}{3}$ n'est pas un nombre décimal ; $\sqrt{2}$ est irrationnel ; la somme de deux multiples d'un entier est un multiple de cet entier ; le carré d'un nombre impair est impair |
+| Nombres et calculs | [Calcul numérique et algébrique](../seconde/calcul-algebrique/index.md) | $\sqrt{ab} = \sqrt{a}\sqrt{b}$ pour $a$ et $b$ positifs |
+| Algèbre | [Équations et inéquations](../seconde/equations-inequations/index.md) | — |
+| Géométrie | [Vecteurs](../seconde/vecteurs/index.md) | Caractérisations de la colinéarité (déterminant) |
+| Géométrie | [Droites du plan](../seconde/droites/index.md) | Forme générale d'une équation de droite |
+| Fonctions | [Généralités sur les fonctions](../seconde/generalites-fonctions/index.md) | — |
+| Fonctions | [Fonctions de référence](../seconde/fonctions-reference/index.md) | Variations des fonctions carré et inverse |
+| Statistiques | [Information chiffrée et statistiques](../seconde/statistiques/index.md) | — |
+| Probabilités | [Probabilités](../seconde/probabilites/index.md) | — |
 
 **Parties transversales** :
 
