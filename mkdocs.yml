@@ -69,6 +69,14 @@ nav:
       - Seconde: programmes/seconde.md
       - Première: programmes/premiere.md
       - Terminale: programmes/terminale.md
+  - Seconde:
+      - seconde/index.md
+      - "Ch. 1 – Nombres et arithmétique":
+          - seconde/nombres-arithmetique/index.md
+          - Cours: seconde/nombres-arithmetique/cours.md
+          - Méthodes: seconde/nombres-arithmetique/methodes.md
+          - Exercices corrigés: seconde/nombres-arithmetique/exercices.md
+          - Évaluations type: seconde/nombres-arithmetique/bac.md
   - Première:
       - premiere/index.md
       - "Ch. 1 – Suites numériques":
