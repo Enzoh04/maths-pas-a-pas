@@ -197,7 +197,7 @@ Dans ce paragraphe, $u$ et $v$ sont deux fonctions dérivables sur un intervalle
 
 ## 5. Pour aller plus loin
 
-- **Dérivée et variations.** Le signe de $f'$ donne le sens de variation de $f$ : c'est l'objet du [chapitre 4](../index.md).
+- **Dérivée et variations.** Le signe de $f'$ donne le sens de variation de $f$ : c'est l'objet du [chapitre 4](../variations/index.md).
 - **Méthode de Newton.** Pour approcher une solution de $f(x) = 0$, on remplace la courbe par sa tangente et l'on prend l'intersection de la tangente avec l'axe des abscisses : $x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}$. La méthode converge extraordinairement vite (exercice 28 et sujet 4).
 - **Dérivée d'une composée.** En Terminale, la formule $\left(g(ax + b)\right)' = a\,g'(ax + b)$ se généralise en $(g \circ u)' = u' \times (g' \circ u)$.
 - **Développements limités.** L'approximation linéaire est le premier étage d'approximations de plus en plus précises par des polynômes (formule de Taylor, première année post-bac).
