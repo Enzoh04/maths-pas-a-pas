@@ -21,7 +21,7 @@ On considère un cube $ABCDEFGH$ et le repère $\left(A \,;\, \overrightarrow{AB
 1. Donner les coordonnées des points $A$, $C$, $I$ et $J$.
 2. Montrer que les droites $(IJ)$ et $(AC)$ sont parallèles.
 3. En déduire que les points $A$, $C$, $J$ et $I$ sont coplanaires. Quelle est la nature du quadrilatère $ACJI$ ?
-4. a. Montrer que les droites $(AI)$ et $(CJ)$ sont sécantes en un point $K$ dont on donnera les coordonnées.
+4. a. Montrer que les droites $(AI)$ et $(CJ)$ sont sécantes en un point $K$ dont on donnera les coordonnées.  
    b. Montrer que $K$ appartient à la droite $(BF)$.
 5. Que peut-on en déduire pour les trois plans $(ABF)$, $(BCG)$ et $(ACJ)$ ?
 

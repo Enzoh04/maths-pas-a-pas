@@ -17,13 +17,13 @@ Quatre sujets dans l'esprit de l'épreuve. Au bac, ce chapitre arrive presque to
 À un jeu, le gain $X$ d'un joueur (en euros) vaut $-1$ avec probabilité $0{,}5$, $0$ avec probabilité $0{,}3$ et $4$ avec probabilité $0{,}2$.
 
 1. Calculer $E(X)$ et montrer que $V(X) = 3{,}61$.
-2. a. À l'aide de l'inégalité de Bienaymé-Tchebychev, majorer $P\big(|X - 0{,}3| \geq 3\big)$.
+2. a. À l'aide de l'inégalité de Bienaymé-Tchebychev, majorer $P\big(|X - 0{,}3| \geq 3\big)$.  
    b. Calculer la valeur exacte de cette probabilité et comparer.
-3. Un joueur joue $n$ parties indépendantes. On note $M_n$ son gain moyen par partie.
-   a. Donner $E(M_n)$ et $V(M_n)$.
+3. Un joueur joue $n$ parties indépendantes. On note $M_n$ son gain moyen par partie.  
+   a. Donner $E(M_n)$ et $V(M_n)$.  
    b. Déterminer une valeur de $n$ pour laquelle la probabilité que $M_n$ s'écarte de $0{,}3$ d'au moins $0{,}5$ soit inférieure ou égale à $0{,}1$.
-4. On prend $n = 145$. On note $S_{145}$ le gain total du joueur.
-   a. Justifier que si $S_{145} \leq 0$, alors $|M_{145} - 0{,}3| \geq 0{,}3$.
+4. On prend $n = 145$. On note $S_{145}$ le gain total du joueur.  
+   a. Justifier que si $S_{145} \leq 0$, alors $|M_{145} - 0{,}3| \geq 0{,}3$.  
    b. En déduire une majoration de la probabilité que le joueur ne gagne pas d'argent sur ses $145$ parties.
 5. Le jeu est-il favorable à l'organisateur ?
 
@@ -131,8 +131,8 @@ d. l'écart entre le nombre de Pile et la moitié du nombre de lancers tend vers
 On note $\mathcal{D}$ le domaine du carré $[0, 1] \times [0, 1]$ situé sous la courbe de la fonction $x \mapsto x^2$.
 
 1. Calculer l'aire de $\mathcal{D}$ à l'aide d'une intégrale (chapitre 8).
-2. On choisit un point $M(x, y)$ au hasard dans le carré, $x$ et $y$ étant obtenus par `random()`. On admet que la probabilité que $M$ soit dans $\mathcal{D}$ est égale à l'aire de $\mathcal{D}$. On répète l'expérience $n$ fois de façon indépendante, et l'on note $F_n$ la fréquence des points situés dans $\mathcal{D}$.
-   a. Justifier que $E(F_n) = \frac{1}{3}$ et calculer $V(F_n)$.
+2. On choisit un point $M(x, y)$ au hasard dans le carré, $x$ et $y$ étant obtenus par `random()`. On admet que la probabilité que $M$ soit dans $\mathcal{D}$ est égale à l'aire de $\mathcal{D}$. On répète l'expérience $n$ fois de façon indépendante, et l'on note $F_n$ la fréquence des points situés dans $\mathcal{D}$.  
+   a. Justifier que $E(F_n) = \frac{1}{3}$ et calculer $V(F_n)$.  
    b. Déterminer une valeur de $n$ telle que $P\left(\left|F_n - \frac{1}{3}\right| \geq 0{,}01\right) \leq 0{,}05$.
 3. Compléter la fonction Python suivante, qui renvoie $F_n$.
 

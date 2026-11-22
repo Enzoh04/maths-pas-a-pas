@@ -42,12 +42,12 @@ Les chapitres suivent le **nouveau programme** de spécialité mathématiques de
 | N° | Chapitre | État |
 |---|---|---|
 | 9 | [Probabilités conditionnelles et indépendance](probabilites-conditionnelles/index.md) | ✅ |
-| 10 | Variables aléatoires réelles | ⏳ |
+| 10 | [Variables aléatoires réelles](variables-aleatoires/index.md) | ✅ |
 
 ## Transversal
 
 | Thème | État |
 |---|---|
-| Vocabulaire ensembliste et logique | ⏳ |
-| Algorithmique et programmation (listes en Python) | ⏳ |
-| Automatismes pour l'épreuve anticipée | ⏳ |
+| [Vocabulaire ensembliste et logique](transversal/logique.md) | ✅ |
+| [Algorithmique et programmation (listes en Python)](transversal/python-listes.md) | ✅ |
+| [Automatismes pour l'épreuve anticipée](transversal/automatismes.md) | ✅ |

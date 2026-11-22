@@ -20,7 +20,7 @@ Chaque chapitre est organisé de la même façon :
 
 ## Niveaux disponibles
 
-- [**Première** (spécialité mathématiques)](premiere/index.md) — en cours de rédaction, nouveau programme 2026
+- [**Première** (spécialité mathématiques)](premiere/index.md) — 10 chapitres disponibles, nouveau programme 2026
 - [**Terminale** (spécialité mathématiques)](terminale/index.md) — 15 chapitres disponibles
 - Seconde — à venir
 

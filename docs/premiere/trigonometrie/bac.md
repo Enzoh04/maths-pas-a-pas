@@ -221,7 +221,7 @@ Pour tout réel $x$, on pose $f(x) = 2\cos^2 x + \cos x - 1$.
 
 1. Calculer $f(0)$, $f\left(\frac{\pi}{2}\right)$ et $f(\pi)$.
 2. Montrer que $f$ est paire et que $f(x + 2\pi) = f(x)$. Pourquoi suffit-il d'étudier $f$ sur $[0\,;\,\pi]$ ?
-3. a. Factoriser $2X^2 + X - 1$.
+3. a. Factoriser $2X^2 + X - 1$.  
    b. En déduire que $f(x) = (2\cos x - 1)(\cos x + 1)$.
 4. Résoudre l'équation $f(x) = 0$ dans $[0\,;\,\pi]$.
 5. Étudier le signe de $f(x)$ sur $[0\,;\,\pi]$. *On remarquera que $\cos x + 1 \geq 0$.*

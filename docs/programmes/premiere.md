@@ -12,14 +12,14 @@
 |---|---|---|
 | Algèbre | [Suites numériques, modèles discrets](../premiere/suites/index.md) | Terme général d'une suite arithmétique et d'une suite géométrique ; calcul de $1 + 2 + \cdots + n$ ; calcul de $1 + q + \cdots + q^n$ |
 | Algèbre | [Équations, fonctions polynômes du second degré](../premiere/second-degre/index.md) | Résolution de l'équation du second degré |
-| Analyse | Dérivation | Équation de la tangente en un point ; la fonction racine carrée n'est pas dérivable en $0$ ; dérivées des fonctions carré et inverse ; dérivée d'un produit |
-| Analyse | Variations et courbes représentatives | — |
-| Analyse | Fonction exponentielle | — |
-| Analyse | Trigonométrie | Calcul de $\cos\frac{\pi}{4}$, $\sin\frac{\pi}{4}$, $\cos\frac{\pi}{3}$, $\sin\frac{\pi}{3}$ |
-| Géométrie | Calcul vectoriel et produit scalaire | Formule d'Al-Kashi ; ensemble des points $M$ tels que $\overrightarrow{MA} \cdot \overrightarrow{MB} = 0$ |
-| Géométrie | Géométrie repérée | — |
-| Probabilités | Probabilités conditionnelles et indépendance | — |
-| Probabilités | Variables aléatoires réelles | — |
+| Analyse | [Dérivation](../premiere/derivation/index.md) | Équation de la tangente en un point ; la fonction racine carrée n'est pas dérivable en $0$ ; dérivées des fonctions carré et inverse ; dérivée d'un produit |
+| Analyse | [Variations et courbes représentatives](../premiere/variations/index.md) | — |
+| Analyse | [Fonction exponentielle](../premiere/exponentielle/index.md) | — |
+| Analyse | [Trigonométrie](../premiere/trigonometrie/index.md) | Calcul de $\cos\frac{\pi}{4}$, $\sin\frac{\pi}{4}$, $\cos\frac{\pi}{3}$, $\sin\frac{\pi}{3}$ |
+| Géométrie | [Calcul vectoriel et produit scalaire](../premiere/produit-scalaire/index.md) | Formule d'Al-Kashi ; ensemble des points $M$ tels que $\overrightarrow{MA} \cdot \overrightarrow{MB} = 0$ |
+| Géométrie | [Géométrie repérée](../premiere/geometrie-reperee/index.md) | — |
+| Probabilités | [Probabilités conditionnelles et indépendance](../premiere/probabilites-conditionnelles/index.md) | — |
+| Probabilités | [Variables aléatoires réelles](../premiere/variables-aleatoires/index.md) | — |
 
 **Parties transversales**, travaillées tout au long de l'année :
 

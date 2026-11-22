@@ -55,9 +55,9 @@ Une plante A mesure $10$ cm et grandit de $2$ cm par semaine. Une plante B mesur
     | $v_n$ | | | | | | |
 
 3. Au bout de combien de semaines la plante B dépasse-t-elle la plante A ?
-4. On pose $d_n = v_n - u_n$.
-   a. Montrer que $d_{n+1} - d_n = 2^n - 2$.
-   b. En déduire que la suite $(d_n)$ est croissante à partir du rang $1$.
+4. On pose $d_n = v_n - u_n$.  
+   a. Montrer que $d_{n+1} - d_n = 2^n - 2$.  
+   b. En déduire que la suite $(d_n)$ est croissante à partir du rang $1$.  
    c. Justifier que la plante B reste plus grande que la plante A à partir de la semaine trouvée à la question 3.
 5. Compléter la fonction Python suivante pour qu'elle renvoie le nombre de semaines trouvé à la question 3.
 
@@ -139,9 +139,9 @@ a. $40$ € ; b. $48$ € ; c. $50$ € ; d. $72$ €.
 On considère la suite $(u_n)$ définie par $u_0 = 10$ et, pour tout entier naturel $n$, $u_{n+1} = 0{,}5\,u_n + 3$.
 
 1. Calculer $u_1$ et $u_2$. La suite $(u_n)$ est-elle arithmétique ? géométrique ?
-2. On pose, pour tout $n$, $v_n = u_n - 6$.
-   a. Calculer $v_0$.
-   b. Montrer que $(v_n)$ est géométrique de raison $0{,}5$.
+2. On pose, pour tout $n$, $v_n = u_n - 6$.  
+   a. Calculer $v_0$.  
+   b. Montrer que $(v_n)$ est géométrique de raison $0{,}5$.  
    c. En déduire que, pour tout $n$, $u_n = 6 + 4 \times 0{,}5^n$.
 3. Étudier le sens de variation de la suite $(u_n)$.
 4. Quel semble être le comportement de $u_n$ quand $n$ devient grand ? Justifier brièvement.
@@ -284,9 +284,9 @@ $$1 + q + q^2 + \cdots + q^n = \frac{1 - q^{n+1}}{1 - q}.$$
 1. Calculer $h_1$ et $h_2$.
 2. Justifier que $(h_n)$ est géométrique, et exprimer $h_n$ en fonction de $n$.
 3. Étudier le sens de variation de $(h_n)$.
-4. On note $D_n$ la distance totale parcourue par la balle, depuis le lâcher jusqu'au moment où elle touche le sol pour la $(n+1)$-ième fois. On admet que $D_n = 2 + 2\,(h_1 + h_2 + \cdots + h_n)$.
-   a. Justifier cette formule.
-   b. Montrer que $D_n = 14 - 12 \times \left(\frac{3}{4}\right)^n$.
+4. On note $D_n$ la distance totale parcourue par la balle, depuis le lâcher jusqu'au moment où elle touche le sol pour la $(n+1)$-ième fois. On admet que $D_n = 2 + 2\,(h_1 + h_2 + \cdots + h_n)$.  
+   a. Justifier cette formule.  
+   b. Montrer que $D_n = 14 - 12 \times \left(\frac{3}{4}\right)^n$.  
    c. Vérifier la formule pour $n = 1$.
 5. La balle peut-elle parcourir plus de $14$ mètres ? Que semble-t-il se passer quand $n$ devient grand ?
 

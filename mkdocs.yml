@@ -125,6 +125,16 @@ nav:
           - Méthodes: premiere/probabilites-conditionnelles/methodes.md
           - Exercices corrigés: premiere/probabilites-conditionnelles/exercices.md
           - Sujets type épreuve anticipée: premiere/probabilites-conditionnelles/bac.md
+      - "Ch. 10 – Variables aléatoires":
+          - premiere/variables-aleatoires/index.md
+          - Cours: premiere/variables-aleatoires/cours.md
+          - Méthodes: premiere/variables-aleatoires/methodes.md
+          - Exercices corrigés: premiere/variables-aleatoires/exercices.md
+          - Sujets type épreuve anticipée: premiere/variables-aleatoires/bac.md
+      - "Transversal":
+          - Logique et ensembles: premiere/transversal/logique.md
+          - Python, les listes: premiere/transversal/python-listes.md
+          - Automatismes: premiere/transversal/automatismes.md
   - Terminale:
       - terminale/index.md
       - "Ch. 1 – Suites":

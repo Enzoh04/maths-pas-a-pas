@@ -225,7 +225,7 @@ a. passe par $(1\,;\,1)$ ; b. passe par $(0\,;\,-2)$ ; c. est croissante ; d. a 
 
 On cherche une valeur approchée de $\sqrt{3}$, solution positive de l'équation $x^2 - 3 = 0$. On pose $f(x) = x^2 - 3$.
 
-1. a. À l'aide d'une approximation linéaire de $x \mapsto \sqrt{x}$ en $4$, donner une première valeur approchée de $\sqrt{3}$.
+1. a. À l'aide d'une approximation linéaire de $x \mapsto \sqrt{x}$ en $4$, donner une première valeur approchée de $\sqrt{3}$.  
    b. Cette valeur est-elle trop grande ou trop petite ? (On pourra calculer son carré.)
 2. Soit $u > 0$. Montrer que la tangente à la courbe de $f$ au point d'abscisse $u$ coupe l'axe des abscisses au point d'abscisse
    $$g(u) = \frac{u}{2} + \frac{3}{2u}.$$

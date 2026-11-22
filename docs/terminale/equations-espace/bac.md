@@ -17,14 +17,14 @@ Quatre sujets dans l'esprit de l'épreuve : c'est le format le plus fréquent de
 On considère les points $A(1, 0, 2)$, $B(2, 1, 0)$, $C(0, 1, 1)$ et $D(4, 5, 7)$.
 
 1. Montrer que les points $A$, $B$, $C$ ne sont pas alignés.
-2. a. Montrer que le vecteur $\vec{n}(1, 3, 2)$ est normal au plan $(ABC)$.
+2. a. Montrer que le vecteur $\vec{n}(1, 3, 2)$ est normal au plan $(ABC)$.  
    b. En déduire une équation cartésienne du plan $(ABC)$.
-3. a. Calculer $\overrightarrow{AB} \cdot \overrightarrow{AC}$, puis $\cos\widehat{BAC}$.
+3. a. Calculer $\overrightarrow{AB} \cdot \overrightarrow{AC}$, puis $\cos\widehat{BAC}$.  
    b. En déduire $\sin\widehat{BAC}$, puis montrer que l'aire du triangle $ABC$ vaut $\dfrac{\sqrt{14}}{2}$.
-4. Soit $\Delta$ la droite passant par $D$ et orthogonale au plan $(ABC)$.
-   a. Donner une représentation paramétrique de $\Delta$.
+4. Soit $\Delta$ la droite passant par $D$ et orthogonale au plan $(ABC)$.  
+   a. Donner une représentation paramétrique de $\Delta$.  
    b. Déterminer les coordonnées du point $H$, intersection de $\Delta$ et du plan $(ABC)$.
-5. a. Calculer la distance $DH$. Vérifier le résultat avec la formule de la distance d'un point à un plan.
+5. a. Calculer la distance $DH$. Vérifier le résultat avec la formule de la distance d'un point à un plan.  
    b. En déduire le volume du tétraèdre $ABCD$.
 
 ??? success "Correction"
@@ -58,7 +58,7 @@ $ABCDEFGH$ est un cube d'arête $1$, muni du repère $\left(A \,;\, \overrightar
 
 1. Donner les coordonnées des points $C$, $E$, $I$ et $J$.
 2. Montrer que $\vec{n}(1, 1, 2)$ est normal au plan $(EIJ)$, et en déduire une équation de ce plan.
-3. a. Montrer que le point $C$ appartient au plan $(EIJ)$.
+3. a. Montrer que le point $C$ appartient au plan $(EIJ)$.  
    b. Montrer que le quadrilatère $EICJ$ est un losange. Est-ce un carré ?
 4. Donner une représentation paramétrique de la droite $(AG)$, puis déterminer son point d'intersection $K$ avec le plan $(EIJ)$. Que représente $K$ pour le losange ?
 5. Calculer la distance du point $A$ au plan $(EIJ)$.
@@ -127,8 +127,8 @@ $$d_1 : \begin{cases} x = 1 + t \\ y = 2t \\ z = 3 - t \end{cases} \ (t \in \mat
 2. Montrer que le vecteur $\vec{n}(1, -2, -3)$ est orthogonal à un vecteur directeur de $d_1$ et à un vecteur directeur de $d_2$.
 3. Soit $\mathcal{P}$ le plan contenant $d_1$ et de vecteur normal $\vec{n}$. Montrer qu'il a pour équation $x - 2y - 3z + 8 = 0$.
 4. Montrer que $d_2$ est parallèle à $\mathcal{P}$, puis calculer la distance d'un point de $d_2$ au plan $\mathcal{P}$.
-5. On note $M_1$ le point de $d_1$ de paramètre $t$ et $M_2$ le point de $d_2$ de paramètre $s$.
-   a. Montrer que $(M_1M_2)$ est orthogonale à $d_1$ et à $d_2$ si et seulement si $s + 3t = 3$ et $3s + 2t = 3$.
+5. On note $M_1$ le point de $d_1$ de paramètre $t$ et $M_2$ le point de $d_2$ de paramètre $s$.  
+   a. Montrer que $(M_1M_2)$ est orthogonale à $d_1$ et à $d_2$ si et seulement si $s + 3t = 3$ et $3s + 2t = 3$.  
    b. En déduire les points $M_1$ et $M_2$ correspondants et la longueur $M_1M_2$.
 6. Montrer que pour tout point $M$ de $d_1$ et tout point $N$ de $d_2$, $MN \geq M_1M_2$.
 

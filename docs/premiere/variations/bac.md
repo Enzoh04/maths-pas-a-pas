@@ -217,8 +217,8 @@ Soit $f$ la fonction définie sur $]0\,;\,+\infty[$ par $f(x) = x + \dfrac{4}{x}
 1. Calculer $f'(x)$ et l'écrire sous la forme d'un seul quotient.
 2. Dresser le tableau de variations de $f$ sur $]0\,;\,+\infty[$.
 3. En déduire que pour tout $x > 0$, $x + \dfrac{4}{x} \geq 4$. Pour quelle valeur de $x$ a-t-on égalité ?
-4. **Application.** On considère les rectangles d'aire $4$ m².
-   a. Si l'un des côtés mesure $x$ mètres, exprimer l'autre côté, puis le périmètre $p(x)$.
+4. **Application.** On considère les rectangles d'aire $4$ m².  
+   a. Si l'un des côtés mesure $x$ mètres, exprimer l'autre côté, puis le périmètre $p(x)$.  
    b. Quel est le plus petit périmètre possible ? Quelle est alors la forme du rectangle ?
 5. Retrouver l'inégalité de la question 3 par un calcul algébrique.
 

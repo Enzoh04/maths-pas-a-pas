@@ -105,7 +105,7 @@ Les questions sont indépendantes.
 
 1. Résoudre l'équation $e^{2x + 1} = e^{-x + 7}$.
 2. Résoudre l'inéquation $e^{x^2} \leq e^{3x - 2}$.
-3. a. Montrer que $1$ et $e^{-1}$ sont les solutions de l'équation $X^2 - (1 + e^{-1})X + e^{-1} = 0$.
+3. a. Montrer que $1$ et $e^{-1}$ sont les solutions de l'équation $X^2 - (1 + e^{-1})X + e^{-1} = 0$.  
    b. En déduire les solutions de l'équation $e^{2x} - (1 + e^{-1})\,e^x + e^{-1} = 0$.
 4. Résoudre l'inéquation $(x^2 - 1)\,e^{-x} \leq 0$.
 5. Montrer que pour tout réel $x$, $\dfrac{e^x - 1}{e^x + 1} = \dfrac{1 - e^{-x}}{1 + e^{-x}}$.
@@ -221,11 +221,11 @@ a. $10^{-10}$ ; b. $10^{3}$ ; c. $10^{7}$ ; d. $10^{-3}$.
 
 On note $\exp$ la fonction exponentielle, et l'on utilise le résultat suivant : une fonction dont la dérivée est nulle sur $\mathbb{R}$ est constante.
 
-1. On pose $\varphi(x) = \exp(x)\exp(-x)$.
-   a. Montrer que $\varphi'(x) = 0$ pour tout réel $x$.
+1. On pose $\varphi(x) = \exp(x)\exp(-x)$.  
+   a. Montrer que $\varphi'(x) = 0$ pour tout réel $x$.  
    b. En déduire que $\exp(x)\exp(-x) = 1$ pour tout réel $x$, puis que $\exp$ ne s'annule pas.
-2. Soit $b$ un réel fixé. On pose $g(x) = \exp(x + b)\exp(-x)$.
-   a. Montrer que $g$ est constante, égale à $\exp(b)$.
+2. Soit $b$ un réel fixé. On pose $g(x) = \exp(x + b)\exp(-x)$.  
+   a. Montrer que $g$ est constante, égale à $\exp(b)$.  
    b. En déduire que $\exp(x + b) = \exp(x)\exp(b)$ pour tout réel $x$.
 3. En écrivant $\exp(x) = \exp\left(\frac{x}{2}\right)^2$, montrer que $\exp(x) > 0$ pour tout réel $x$.
 4. Montrer que pour tout réel $x$, $\exp(x) \geq 1 + x$.

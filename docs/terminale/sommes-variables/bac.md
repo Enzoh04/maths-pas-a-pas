@@ -57,8 +57,8 @@ Une entreprise utilise deux machines indépendantes. Chaque jour, la machine A p
 1. Donner la loi de $X$ et celle de $Y$.
 2. Calculer $E(D)$, $V(D)$ et $\sigma(D)$.
 3. Calculer la probabilité qu'aucune pièce ne soit défectueuse dans la journée.
-4. On veut savoir si $D$ suit une loi binomiale de paramètres $n = 500$ et $p$.
-   a. Quelle valeur de $p$ donnerait la même espérance ?
+4. On veut savoir si $D$ suit une loi binomiale de paramètres $n = 500$ et $p$.  
+   a. Quelle valeur de $p$ donnerait la même espérance ?  
    b. Calculer alors la variance de cette loi binomiale. Conclure.
 5. Chaque pièce défectueuse coûte $15$ € à l'entreprise, qui paie en plus $50$ € de contrôle par jour. On note $C$ le coût journalier. Exprimer $C$ en fonction de $D$, puis calculer $E(C)$ et $\sigma(C)$.
 

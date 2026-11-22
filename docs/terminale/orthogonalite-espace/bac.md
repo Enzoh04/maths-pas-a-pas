@@ -20,11 +20,11 @@ On considère un cube $ABCDEFGH$ d'arête $1$ et le repère orthonormé $\left(A
 
 1. Donner les coordonnées des points $A$, $C$, $D$, $F$ et $H$.
 2. Montrer que le vecteur $\overrightarrow{DF}$ est normal au plan $(ACH)$.
-3. On note $K$ le projeté orthogonal du point $D$ sur le plan $(ACH)$.
-   a. Justifier qu'il existe un réel $k$ tel que $\overrightarrow{DK} = k\overrightarrow{DF}$.
+3. On note $K$ le projeté orthogonal du point $D$ sur le plan $(ACH)$.  
+   a. Justifier qu'il existe un réel $k$ tel que $\overrightarrow{DK} = k\overrightarrow{DF}$.  
    b. Déterminer $k$, puis les coordonnées de $K$.
 4. Montrer que $K$ est le centre de gravité du triangle $ACH$.
-5. a. Calculer la distance du point $D$ au plan $(ACH)$.
+5. a. Calculer la distance du point $D$ au plan $(ACH)$.  
    b. Retrouver ce résultat en calculant de deux façons le volume du tétraèdre $DACH$.
 6. Montrer que le plan $(ACH)$ coupe le segment $[DF]$ au tiers de sa longueur en partant de $D$.
 

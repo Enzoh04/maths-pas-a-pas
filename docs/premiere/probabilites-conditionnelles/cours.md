@@ -175,7 +175,7 @@ Pour calculer la probabilité d'obtenir **exactement $k$ succès**, on **compte*
 
 ## 8. Pour aller plus loin
 
-- **Variables aléatoires.** Le nombre de succès est une **variable aléatoire** ([chapitre 10](../index.md)) ; en Terminale, sa loi s'appelle la [loi binomiale](../../terminale/loi-binomiale/index.md), avec les coefficients binomiaux $\binom{n}{k}$ pour compter les chemins.
+- **Variables aléatoires.** Le nombre de succès est une **variable aléatoire** ([chapitre 10](../variables-aleatoires/index.md)) ; en Terminale, sa loi s'appelle la [loi binomiale](../../terminale/loi-binomiale/index.md), avec les coefficients binomiaux $\binom{n}{k}$ pour compter les chemins.
 - **Statistique bayésienne.** La formule de Bayes est à la base des filtres anti-spam, du diagnostic médical assisté et de nombreux algorithmes d'apprentissage automatique.
 - **Le paradoxe de Monty Hall**, célèbre jeu télévisé où il vaut mieux changer de porte : un très bon exercice d'arbre (exercice 28).
 

@@ -47,10 +47,10 @@ a. $(-1\,;\,4)$ ; b. $(1\,;\,-4)$ ; c. $(1\,;\,4)$ ; d. $(4\,;\,1)$.
 Soit $f$ la fonction définie sur $\mathbb{R}$ par $f(x) = -2x^2 + 8x - 6$. On note $\mathcal{C}$ sa courbe représentative.
 
 1. Calculer $f(0)$.
-2. a. Montrer que, pour tout réel $x$, $f(x) = -2(x - 2)^2 + 2$.
+2. a. Montrer que, pour tout réel $x$, $f(x) = -2(x - 2)^2 + 2$.  
    b. En déduire le tableau de variations de $f$ et son extremum.
-3. a. Résoudre l'équation $f(x) = 0$.
-   b. En déduire une forme factorisée de $f(x)$.
+3. a. Résoudre l'équation $f(x) = 0$.  
+   b. En déduire une forme factorisée de $f(x)$.  
    c. Dresser le tableau de signes de $f(x)$.
 4. Résoudre l'équation $f(x) = -6$.
 5. Soit $d$ la droite d'équation $y = 2x - 6$. Déterminer les coordonnées des points d'intersection de $\mathcal{C}$ et de $d$, puis la position relative de $\mathcal{C}$ et de $d$.
@@ -120,8 +120,8 @@ Un jardinier dispose de $40$ mètres de grillage pour clôturer un potager recta
 1. Justifier que $0 < x < 20$ et que la longueur du côté parallèle au mur est $40 - 2x$.
 2. Montrer que l'aire du potager est $A(x) = -2x^2 + 40x$.
 3. Pour quelle valeur de $x$ l'aire est-elle maximale ? Donner les dimensions du potager et son aire.
-4. Le jardinier veut une aire d'au moins $150$ m².
-   a. Montrer que cela revient à résoudre $x^2 - 20x + 75 \leq 0$.
+4. Le jardinier veut une aire d'au moins $150$ m².  
+   a. Montrer que cela revient à résoudre $x^2 - 20x + 75 \leq 0$.  
    b. Résoudre cette inéquation et conclure.
 
 ??? success "Correction"
@@ -248,11 +248,11 @@ a. $\frac{1}{2}$ ; b. $2$ ; c. $4$ ; d. $3$.
 Soit $f(x) = x^2 - 2x - 3$ et $g(x) = x + 1$, définies sur $\mathbb{R}$. On note $\mathcal{C}_f$ et $\mathcal{C}_g$ leurs courbes.
 
 1. Factoriser $f(x)$.
-2. a. Montrer que $f(x) - g(x) = (x + 1)(x - 4)$.
-   b. En déduire les coordonnées des points d'intersection de $\mathcal{C}_f$ et $\mathcal{C}_g$.
+2. a. Montrer que $f(x) - g(x) = (x + 1)(x - 4)$.  
+   b. En déduire les coordonnées des points d'intersection de $\mathcal{C}_f$ et $\mathcal{C}_g$.  
    c. Étudier la position relative de $\mathcal{C}_f$ et $\mathcal{C}_g$.
-3. On considère l'inéquation $(I)$ : $\dfrac{f(x)}{g(x)} \geq 0$.
-   a. Pour quelle valeur de $x$ le quotient n'est-il pas défini ?
+3. On considère l'inéquation $(I)$ : $\dfrac{f(x)}{g(x)} \geq 0$.  
+   a. Pour quelle valeur de $x$ le quotient n'est-il pas défini ?  
    b. Simplifier $\dfrac{f(x)}{g(x)}$ pour $x \neq -1$, puis résoudre $(I)$.
 4. Compléter la fonction Python suivante, qui renvoie `True` si la courbe de $f$ est au-dessus de celle de $g$ (ou la touche) en $x$, et `False` sinon.
 

@@ -73,9 +73,9 @@ Un joueur paie $1$ € par partie et joue $10$ parties. Il reçoit $4$ € pour 
 2. Calculer la probabilité que le joueur ne gagne aucune partie, puis qu'il en gagne au moins $3$.
 3. Montrer que $G = 4X - 10$. Calculer $E(G)$ et interpréter.
 4. L'organisateur veut rendre le jeu équitable en modifiant uniquement la somme reçue par partie gagnée. Quelle somme doit-il proposer ?
-5. On revient au jeu initial. Le joueur veut avoir une probabilité d'au moins $0{,}95$ de gagner au moins une partie.
-   a. Montrer que le nombre $n$ de parties à jouer doit vérifier $0{,}8^n \leq 0{,}05$.
-   b. En déduire le nombre minimal de parties.
+5. On revient au jeu initial. Le joueur veut avoir une probabilité d'au moins $0{,}95$ de gagner au moins une partie.  
+   a. Montrer que le nombre $n$ de parties à jouer doit vérifier $0{,}8^n \leq 0{,}05$.  
+   b. En déduire le nombre minimal de parties.  
    c. Compléter la fonction Python suivante pour qu'elle renvoie ce nombre minimal.
 
     ```python
@@ -147,8 +147,8 @@ Un fabricant d'électroménager affirme que $90\,\%$ de ses clients sont satisfa
 On fait l'hypothèse que l'affirmation du fabricant est exacte, et l'on note $X$ le nombre de clients satisfaits dans un échantillon de $100$ clients.
 
 1. Quelle est la loi de $X$ ? Calculer son espérance et son écart type.
-2. À l'aide de la calculatrice, déterminer :
-   a. le plus petit entier $a$ tel que $P(X \leq a) > 0{,}025$ ;
+2. À l'aide de la calculatrice, déterminer :  
+   a. le plus petit entier $a$ tel que $P(X \leq a) > 0{,}025$ ;  
    b. le plus petit entier $b$ tel que $P(X \leq b) \geq 0{,}975$.
 3. Justifier que $P(a \leq X \leq b) \geq 0{,}95$, puis donner une valeur approchée de cette probabilité.
 4. Au vu du résultat de l'enquête, l'association peut-elle contester l'affirmation du fabricant ? Avec quel risque d'erreur ?
