@@ -41,7 +41,7 @@ Les chapitres suivent le **nouveau programme** de spécialité mathématiques de
 
 | N° | Chapitre | État |
 |---|---|---|
-| 9 | Probabilités conditionnelles et indépendance | ⏳ |
+| 9 | [Probabilités conditionnelles et indépendance](probabilites-conditionnelles/index.md) | ✅ |
 | 10 | Variables aléatoires réelles | ⏳ |
 
 ## Transversal

@@ -119,6 +119,12 @@ nav:
           - Méthodes: premiere/geometrie-reperee/methodes.md
           - Exercices corrigés: premiere/geometrie-reperee/exercices.md
           - Sujets type épreuve anticipée: premiere/geometrie-reperee/bac.md
+      - "Ch. 9 – Probabilités conditionnelles":
+          - premiere/probabilites-conditionnelles/index.md
+          - Cours: premiere/probabilites-conditionnelles/cours.md
+          - Méthodes: premiere/probabilites-conditionnelles/methodes.md
+          - Exercices corrigés: premiere/probabilites-conditionnelles/exercices.md
+          - Sujets type épreuve anticipée: premiere/probabilites-conditionnelles/bac.md
   - Terminale:
       - terminale/index.md
       - "Ch. 1 – Suites":
