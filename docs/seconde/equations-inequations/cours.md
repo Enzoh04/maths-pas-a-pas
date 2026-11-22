@@ -155,7 +155,7 @@ $S = ]-\infty\,;\,-1] \cup ]3\,;\,+\infty[$.
 
 ## 9. Pour aller plus loin
 
-- **Résolution graphique.** Résoudre $f(x) = k$ ou $f(x) > g(x)$ revient à lire des abscisses de points d'intersection ou des positions de courbes ([chapitre 6](../index.md)).
+- **Résolution graphique.** Résoudre $f(x) = k$ ou $f(x) > g(x)$ revient à lire des abscisses de points d'intersection ou des positions de courbes ([chapitre 6](../generalites-fonctions/index.md)).
 - **Le second degré** (Première) : on saura résoudre $ax^2 + bx + c = 0$ dans tous les cas, avec le discriminant $\Delta = b^2 - 4ac$ ([Première, chapitre 2](../../premiere/second-degre/index.md)).
 - **Équations et histoire.** Les mathématiciens arabes (Al-Khwârizmî, IXᵉ siècle) ont donné son nom à l'algèbre (*al-jabr* : la remise en place, c'est-à-dire le passage d'un terme d'un membre à l'autre).
 

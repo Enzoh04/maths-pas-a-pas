@@ -101,6 +101,12 @@ nav:
           - Méthodes: seconde/droites/methodes.md
           - Exercices corrigés: seconde/droites/exercices.md
           - Évaluations type: seconde/droites/bac.md
+      - "Ch. 6 – Généralités sur les fonctions":
+          - seconde/generalites-fonctions/index.md
+          - Cours: seconde/generalites-fonctions/cours.md
+          - Méthodes: seconde/generalites-fonctions/methodes.md
+          - Exercices corrigés: seconde/generalites-fonctions/exercices.md
+          - Évaluations type: seconde/generalites-fonctions/bac.md
   - Première:
       - premiere/index.md
       - "Ch. 1 – Suites numériques":

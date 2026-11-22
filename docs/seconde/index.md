@@ -27,7 +27,7 @@ Les chapitres suivent le **nouveau programme** de mathématiques de Seconde gén
 
 | N° | Chapitre | État |
 |---|---|---|
-| 6 | Généralités sur les fonctions | ⏳ |
+| 6 | [Généralités sur les fonctions](generalites-fonctions/index.md) | ✅ |
 | 7 | Fonctions de référence | ⏳ |
 
 ## Statistiques et probabilités
