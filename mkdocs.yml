@@ -1,0 +1,157 @@
+site_name: Maths Pas à Pas
+site_description: Cours, méthodes, exercices corrigés et annales de mathématiques, de la Seconde au Master.
+docs_dir: docs
+copyright: "Contenu produit avec l'aide d'une intelligence artificielle : il peut contenir des erreurs. Voir la page Avertissement."
+use_directory_urls: false
+
+theme:
+  name: material
+  language: fr
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - search.highlight
+    - search.suggest
+    - toc.follow
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Passer en mode sombre
+    - scheme: slate
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Passer en mode clair
+  icon:
+    logo: material/sigma
+
+plugins:
+  - search:
+      lang: fr
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/katex/katex.min.js
+  - javascripts/katex/auto-render.min.js
+  - javascripts/katex-init.js
+
+extra_css:
+  - javascripts/katex/katex.min.css
+  - stylesheets/extra.css
+
+nav:
+  - Accueil: index.md
+  - Avertissement: avertissement.md
+  - Terminale:
+      - terminale/index.md
+      - "Ch. 1 – Suites":
+          - terminale/suites/index.md
+          - Cours: terminale/suites/cours.md
+          - Méthodes: terminale/suites/methodes.md
+          - Exercices corrigés: terminale/suites/exercices.md
+          - Sujets type bac: terminale/suites/bac.md
+      - "Ch. 2 – Limites de fonctions":
+          - terminale/limites-fonctions/index.md
+          - Cours: terminale/limites-fonctions/cours.md
+          - Méthodes: terminale/limites-fonctions/methodes.md
+          - Exercices corrigés: terminale/limites-fonctions/exercices.md
+          - Sujets type bac: terminale/limites-fonctions/bac.md
+      - "Ch. 3 – Dérivation et convexité":
+          - terminale/derivation-convexite/index.md
+          - Cours: terminale/derivation-convexite/cours.md
+          - Méthodes: terminale/derivation-convexite/methodes.md
+          - Exercices corrigés: terminale/derivation-convexite/exercices.md
+          - Sujets type bac: terminale/derivation-convexite/bac.md
+      - "Ch. 4 – Continuité":
+          - terminale/continuite/index.md
+          - Cours: terminale/continuite/cours.md
+          - Méthodes: terminale/continuite/methodes.md
+          - Exercices corrigés: terminale/continuite/exercices.md
+          - Sujets type bac: terminale/continuite/bac.md
+      - "Ch. 5 – Logarithme népérien":
+          - terminale/logarithme/index.md
+          - Cours: terminale/logarithme/cours.md
+          - Méthodes: terminale/logarithme/methodes.md
+          - Exercices corrigés: terminale/logarithme/exercices.md
+          - Sujets type bac: terminale/logarithme/bac.md
+      - "Ch. 6 – Sinus et cosinus":
+          - terminale/trigonometrie/index.md
+          - Cours: terminale/trigonometrie/cours.md
+          - Méthodes: terminale/trigonometrie/methodes.md
+          - Exercices corrigés: terminale/trigonometrie/exercices.md
+          - Sujets type bac: terminale/trigonometrie/bac.md
+      - "Ch. 7 – Primitives et équations différentielles":
+          - terminale/primitives-equations-differentielles/index.md
+          - Cours: terminale/primitives-equations-differentielles/cours.md
+          - Méthodes: terminale/primitives-equations-differentielles/methodes.md
+          - Exercices corrigés: terminale/primitives-equations-differentielles/exercices.md
+          - Sujets type bac: terminale/primitives-equations-differentielles/bac.md
+      - "Ch. 8 – Calcul intégral":
+          - terminale/calcul-integral/index.md
+          - Cours: terminale/calcul-integral/cours.md
+          - Méthodes: terminale/calcul-integral/methodes.md
+          - Exercices corrigés: terminale/calcul-integral/exercices.md
+          - Sujets type bac: terminale/calcul-integral/bac.md
+      - "Ch. 9 – Dénombrement":
+          - terminale/denombrement/index.md
+          - Cours: terminale/denombrement/cours.md
+          - Méthodes: terminale/denombrement/methodes.md
+          - Exercices corrigés: terminale/denombrement/exercices.md
+          - Sujets type bac: terminale/denombrement/bac.md
+      - "Ch. 10 – Vecteurs, droites et plans":
+          - terminale/vecteurs-espace/index.md
+          - Cours: terminale/vecteurs-espace/cours.md
+          - Méthodes: terminale/vecteurs-espace/methodes.md
+          - Exercices corrigés: terminale/vecteurs-espace/exercices.md
+          - Sujets type bac: terminale/vecteurs-espace/bac.md
+      - "Ch. 11 – Orthogonalité et distances":
+          - terminale/orthogonalite-espace/index.md
+          - Cours: terminale/orthogonalite-espace/cours.md
+          - Méthodes: terminale/orthogonalite-espace/methodes.md
+          - Exercices corrigés: terminale/orthogonalite-espace/exercices.md
+          - Sujets type bac: terminale/orthogonalite-espace/bac.md
+      - "Ch. 12 – Équations de droites et de plans":
+          - terminale/equations-espace/index.md
+          - Cours: terminale/equations-espace/cours.md
+          - Méthodes: terminale/equations-espace/methodes.md
+          - Exercices corrigés: terminale/equations-espace/exercices.md
+          - Sujets type bac: terminale/equations-espace/bac.md
+      - "Ch. 13 – Loi binomiale":
+          - terminale/loi-binomiale/index.md
+          - Cours: terminale/loi-binomiale/cours.md
+          - Méthodes: terminale/loi-binomiale/methodes.md
+          - Exercices corrigés: terminale/loi-binomiale/exercices.md
+          - Sujets type bac: terminale/loi-binomiale/bac.md
+      - "Ch. 14 – Sommes de variables aléatoires":
+          - terminale/sommes-variables/index.md
+          - Cours: terminale/sommes-variables/cours.md
+          - Méthodes: terminale/sommes-variables/methodes.md
+          - Exercices corrigés: terminale/sommes-variables/exercices.md
+          - Sujets type bac: terminale/sommes-variables/bac.md
+      - "Ch. 15 – Loi des grands nombres":
+          - terminale/loi-grands-nombres/index.md
+          - Cours: terminale/loi-grands-nombres/cours.md
+          - Méthodes: terminale/loi-grands-nombres/methodes.md
+          - Exercices corrigés: terminale/loi-grands-nombres/exercices.md
+          - Sujets type bac: terminale/loi-grands-nombres/bac.md

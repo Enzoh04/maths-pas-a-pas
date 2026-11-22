@@ -1,0 +1,93 @@
+/* Encadrés personnalisés : définition, théorème, propriété, démonstration au programme */
+:root {
+  --c-def: #3f51b5;
+  --c-thm: #c62828;
+  --c-prop: #00897b;
+  --c-demo: #6d4c41;
+}
+
+.md-typeset .admonition.definition,
+.md-typeset details.definition { border-color: var(--c-def); }
+.md-typeset .definition > .admonition-title,
+.md-typeset .definition > summary { background-color: rgba(63, 81, 181, .1); }
+.md-typeset .definition > .admonition-title::before,
+.md-typeset .definition > summary::before {
+  background-color: var(--c-def);
+  -webkit-mask-image: var(--md-admonition-icon--note);
+          mask-image: var(--md-admonition-icon--note);
+}
+
+.md-typeset .admonition.theoreme,
+.md-typeset details.theoreme { border-color: var(--c-thm); }
+.md-typeset .theoreme > .admonition-title,
+.md-typeset .theoreme > summary { background-color: rgba(198, 40, 40, .1); }
+.md-typeset .theoreme > .admonition-title::before,
+.md-typeset .theoreme > summary::before {
+  background-color: var(--c-thm);
+  -webkit-mask-image: var(--md-admonition-icon--danger);
+          mask-image: var(--md-admonition-icon--danger);
+}
+
+.md-typeset .admonition.propriete,
+.md-typeset details.propriete { border-color: var(--c-prop); }
+.md-typeset .propriete > .admonition-title,
+.md-typeset .propriete > summary { background-color: rgba(0, 137, 123, .1); }
+.md-typeset .propriete > .admonition-title::before,
+.md-typeset .propriete > summary::before {
+  background-color: var(--c-prop);
+  -webkit-mask-image: var(--md-admonition-icon--abstract);
+          mask-image: var(--md-admonition-icon--abstract);
+}
+
+.md-typeset .admonition.demo,
+.md-typeset details.demo { border-color: var(--c-demo); }
+.md-typeset .demo > .admonition-title,
+.md-typeset .demo > summary { background-color: rgba(109, 76, 65, .1); }
+.md-typeset .demo > .admonition-title::before,
+.md-typeset .demo > summary::before {
+  background-color: var(--c-demo);
+  -webkit-mask-image: var(--md-admonition-icon--quote);
+          mask-image: var(--md-admonition-icon--quote);
+}
+
+/* Formules centrées qui défilent horizontalement sur mobile */
+.md-typeset .katex-display { overflow-x: auto; overflow-y: hidden; padding: .2em 0; }
+
+/* Étoiles de difficulté */
+.etoiles { color: #f9a825; letter-spacing: .1em; }
+
+/* Boutons de téléchargement PDF */
+.md-typeset .md-button { margin: .2em .3em .2em 0; font-size: .75rem; padding: .45em 1em; }
+
+/* Démonstrations « pour aller plus loin » et résultats admis */
+.md-typeset .admonition.demoplus,
+.md-typeset details.demoplus { border-color: #7b1fa2; }
+.md-typeset .demoplus > .admonition-title,
+.md-typeset .demoplus > summary { background-color: rgba(123, 31, 162, .1); }
+.md-typeset .demoplus > .admonition-title::before,
+.md-typeset .demoplus > summary::before {
+  background-color: #7b1fa2;
+  -webkit-mask-image: var(--md-admonition-icon--example);
+          mask-image: var(--md-admonition-icon--example);
+}
+.md-typeset .admonition.admis,
+.md-typeset details.admis { border-color: #546e7a; }
+.md-typeset .admis > .admonition-title,
+.md-typeset .admis > summary { background-color: rgba(84, 110, 122, .1); }
+.md-typeset .admis > .admonition-title::before,
+.md-typeset .admis > summary::before {
+  background-color: #546e7a;
+  -webkit-mask-image: var(--md-admonition-icon--question);
+          mask-image: var(--md-admonition-icon--question);
+}
+.md-typeset .admonition.lecture,
+.md-typeset details.lecture { border-color: #0277bd; }
+.md-typeset .lecture > .admonition-title { background-color: rgba(2, 119, 189, .1); }
+.md-typeset .lecture > .admonition-title::before {
+  background-color: #0277bd;
+  -webkit-mask-image: var(--md-admonition-icon--info);
+          mask-image: var(--md-admonition-icon--info);
+}
+
+/* Figures centrées */
+.md-typeset p > img:only-child { display: block; margin: .6em auto; max-width: 100%; height: auto; }
