@@ -154,7 +154,7 @@ Y = [f(x) for x in X]
 
 ## 7. Pour aller plus loin
 
-- **Fonctions de référence.** Les fonctions carré, inverse, racine carrée, cube et valeur absolue sont étudiées au [chapitre 7](../index.md).
+- **Fonctions de référence.** Les fonctions carré, inverse, racine carrée, cube et valeur absolue sont étudiées au [chapitre 7](../fonctions-reference/index.md).
 - **Dérivation (Première).** Le **signe de la dérivée** permettra de démontrer les variations de presque toutes les fonctions ([Première, chapitre 4](../../premiere/variations/index.md)).
 - **Modélisation.** Une fonction décrit une **dépendance** entre deux grandeurs : distance de freinage selon la vitesse, coût selon la quantité produite, population selon le temps.
 

@@ -125,7 +125,7 @@ $$\begin{cases} 3x + 4y = 10 \\ 2x - 3y = 1 \end{cases} \quad \to \quad \begin{c
 
 ## 5. Pour aller plus loin
 
-- **Fonctions affines.** La droite $y = mx + p$ est la courbe de la fonction affine $x \mapsto mx + p$ ([chapitre 7](../index.md)).
+- **Fonctions affines.** La droite $y = mx + p$ est la courbe de la fonction affine $x \mapsto mx + p$ ([chapitre 7](../fonctions-reference/index.md)).
 - **Programmation linéaire.** Les systèmes et les demi-plans ($ax + by \leq c$) servent à optimiser une production sous contraintes (logistique, économie).
 - **Systèmes plus grands.** Avec trois inconnues et trois équations, on cherche l'intersection de trois **plans** de l'espace ; la méthode du **pivot de Gauss** (enseignement supérieur) généralise la combinaison.
 - **En Première**, un **vecteur normal** donnera directement l'équation d'une droite perpendiculaire ([Première, chapitre 8](../../premiere/geometrie-reperee/index.md)).

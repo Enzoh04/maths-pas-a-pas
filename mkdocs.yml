@@ -107,6 +107,12 @@ nav:
           - Méthodes: seconde/generalites-fonctions/methodes.md
           - Exercices corrigés: seconde/generalites-fonctions/exercices.md
           - Évaluations type: seconde/generalites-fonctions/bac.md
+      - "Ch. 7 – Fonctions de référence":
+          - seconde/fonctions-reference/index.md
+          - Cours: seconde/fonctions-reference/cours.md
+          - Méthodes: seconde/fonctions-reference/methodes.md
+          - Exercices corrigés: seconde/fonctions-reference/exercices.md
+          - Évaluations type: seconde/fonctions-reference/bac.md
   - Première:
       - premiere/index.md
       - "Ch. 1 – Suites numériques":
