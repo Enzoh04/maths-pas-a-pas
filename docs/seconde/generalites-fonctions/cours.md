@@ -63,7 +63,7 @@ Sur cette figure, $f(1) = -0{,}75$, et $2$ a trois antécédents : $0$ et deux a
     - Les solutions de $f(x) = g(x)$ sont les **abscisses des points d'intersection** de $\mathcal{C}_f$ et $\mathcal{C}_g$.
     - Les solutions de $f(x) \leq g(x)$ sont les abscisses des points où $\mathcal{C}_f$ est **en dessous de** (ou sur) $\mathcal{C}_g$.
 
-![Résolution graphique de f(x) ≤ g(x)](img/inequation.png){ width="50%" }
+![Résolution graphique d’une inéquation](img/inequation.png){ width="50%" }
 
 Ici, $f(x) \leq g(x) \iff x \in [-1\,;\,4]$. Par le calcul : $x^2 - 2x - 1 \leq x + 3 \iff x^2 - 3x - 4 \leq 0 \iff (x + 1)(x - 4) \leq 0$, ce qui confirme la lecture.
 
