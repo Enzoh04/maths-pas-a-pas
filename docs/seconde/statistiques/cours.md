@@ -43,7 +43,7 @@
     - Le **taux d'évolution** est $t = \dfrac{V_A - V_D}{V_D}$ (positif pour une hausse, négatif pour une baisse).
     - Le **coefficient multiplicateur** est $CM = \dfrac{V_A}{V_D} = 1 + t$.
 
-!!! propriete "Augmenter ou diminuer de $t\,\%$"
+!!! propriete "Augmenter ou diminuer d’un pourcentage"
     - Augmenter de $t\,\%$, c'est multiplier par $1 + \frac{t}{100}$.
     - Diminuer de $t\,\%$, c'est multiplier par $1 - \frac{t}{100}$.
 
