@@ -160,10 +160,12 @@ def traiter_chapitre(dossier):
         produire(dossier / "exercices.md", sortie / "exercices-corriges.pdf",
                  "Exercices — énoncés et corrections", True, niveau)
     if (dossier / "bac.md").exists():
+        # En Première, l'examen est l'épreuve anticipée de mathématiques
+        examen = "Sujets type épreuve anticipée" if dossier.parent.name == "premiere" else "Sujets type bac"
         produire(dossier / "bac.md", sortie / "bac-enonces.pdf",
-                 "Sujets type bac — énoncés", False, niveau, saut_de_page=True)
+                 f"{examen} — énoncés", False, niveau, saut_de_page=True)
         produire(dossier / "bac.md", sortie / "bac-corriges.pdf",
-                 "Sujets type bac — énoncés et corrections", True, niveau, saut_de_page=True)
+                 f"{examen} — énoncés et corrections", True, niveau, saut_de_page=True)
 
 
 if __name__ == "__main__":

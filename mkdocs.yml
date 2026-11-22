@@ -64,6 +64,14 @@ extra_css:
 nav:
   - Accueil: index.md
   - Avertissement: avertissement.md
+  - Première:
+      - premiere/index.md
+      - "Ch. 1 – Suites numériques":
+          - premiere/suites/index.md
+          - Cours: premiere/suites/cours.md
+          - Méthodes: premiere/suites/methodes.md
+          - Exercices corrigés: premiere/suites/exercices.md
+          - Sujets type épreuve anticipée: premiere/suites/bac.md
   - Terminale:
       - terminale/index.md
       - "Ch. 1 – Suites":
