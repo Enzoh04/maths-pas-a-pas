@@ -20,17 +20,20 @@ theme:
     - content.code.copy
   palette:
     - scheme: default
-      primary: indigo
-      accent: amber
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-night
-        name: Passer en mode sombre
+        name: Passer en mode tableau noir
     - scheme: slate
-      primary: indigo
-      accent: amber
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-sunny
-        name: Passer en mode clair
+        name: Passer en mode cahier
+  font:
+    text: Literata
+    code: JetBrains Mono
   icon:
     logo: material/sigma
 
@@ -60,6 +63,7 @@ extra_javascript:
 extra_css:
   - javascripts/katex/katex.min.css
   - stylesheets/extra.css
+  - stylesheets/cahier.css
 
 nav:
   - Accueil: index.md

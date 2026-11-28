@@ -1,0 +1,400 @@
+/* ==========================================================================
+   Direction artistique « cahier de maths »
+   Mode clair : feuille à petits carreaux, encre bleue, marge rouge.
+   Mode sombre : tableau noir, craie.
+   ========================================================================== */
+
+:root,
+[data-md-color-scheme="default"] {
+  --papier: #fcfcfa;
+  --carreau: #e3eaf4;
+  --encre: #1d3170;
+  --encre-claire: #3b55a8;
+  --marge: #d2323f;
+  --graphite: #24272d;
+  --surligneur: #ffe680;
+  --vert: #1f7a5a;
+  --violet: #6b3fa0;
+  --gris: #5d6673;
+
+  --md-primary-fg-color: var(--encre);
+  --md-primary-fg-color--light: var(--encre-claire);
+  --md-primary-fg-color--dark: #142456;
+  --md-primary-bg-color: #ffffff;
+  --md-accent-fg-color: var(--marge);
+  --md-default-bg-color: var(--papier);
+  --md-default-fg-color: var(--graphite);
+  --md-typeset-color: var(--graphite);
+  --md-typeset-a-color: var(--encre-claire);
+  --md-footer-bg-color: var(--encre);
+  --md-footer-bg-color--dark: #142456;
+
+  --c-def: var(--encre);
+  --c-thm: var(--marge);
+  --c-prop: var(--vert);
+  --c-demo: var(--graphite);
+  --c-demoplus: var(--violet);
+  --c-admis: var(--gris);
+  --fond-encadre: #ffffff;
+}
+
+[data-md-color-scheme="slate"] {
+  --papier: #1f2a26;
+  --carreau: rgba(237, 235, 227, .045);
+  --encre: #9ec1e8;
+  --encre-claire: #b9d3f0;
+  --marge: #f08a8a;
+  --graphite: #edebe3;
+  --surligneur: #f2d675;
+  --vert: #8fd3b2;
+  --violet: #c9a8ee;
+  --gris: #b5bcc4;
+
+  --md-hue: 160;
+  --md-primary-fg-color: #17201d;
+  --md-primary-fg-color--light: #2a3833;
+  --md-primary-fg-color--dark: #111815;
+  --md-primary-bg-color: #edebe3;
+  --md-accent-fg-color: var(--surligneur);
+  --md-default-bg-color: var(--papier);
+  --md-default-fg-color: var(--graphite);
+  --md-typeset-color: var(--graphite);
+  --md-typeset-a-color: var(--encre);
+  --md-footer-bg-color: #17201d;
+  --md-footer-bg-color--dark: #111815;
+
+  --c-def: var(--encre);
+  --c-thm: var(--marge);
+  --c-prop: var(--vert);
+  --c-demo: var(--graphite);
+  --c-demoplus: var(--violet);
+  --c-admis: var(--gris);
+  --fond-encadre: #24302b;
+}
+
+/* ---------- La feuille : petits carreaux de 5 mm ---------- */
+
+body {
+  background-color: var(--papier);
+  background-image:
+    linear-gradient(var(--carreau) 1px, transparent 1px),
+    linear-gradient(90deg, var(--carreau) 1px, transparent 1px);
+  background-size: 20px 20px;
+  background-attachment: local;
+}
+
+.md-main,
+.md-container { background: transparent; }
+
+/* ---------- La marge rouge (double trait, comme sur une copie) ---------- */
+
+@media screen and (min-width: 45em) {
+  .md-content__inner {
+    --trait: color-mix(in srgb, var(--marge) 55%, transparent);
+    padding-left: 2.4rem;
+    background-image: linear-gradient(90deg,
+      transparent 14px, var(--trait) 14px, var(--trait) 15.5px,
+      transparent 15.5px, transparent 19px, var(--trait) 19px, var(--trait) 20.5px,
+      transparent 20.5px);
+    background-repeat: no-repeat;
+    background-size: 22px 100%;
+  }
+}
+
+/* ---------- Typographie ---------- */
+
+.md-typeset {
+  font-size: .86rem;
+  line-height: 1.75;
+  font-variant-numeric: oldstyle-nums;
+}
+.md-typeset table,
+.md-typeset .katex { font-variant-numeric: lining-nums; }
+
+.md-typeset h1 {
+  color: var(--encre);
+  font-weight: 700;
+  font-size: 2.1em;
+  line-height: 1.15;
+  letter-spacing: -.015em;
+  margin-bottom: .9em;
+}
+
+.md-typeset h2 {
+  color: var(--encre);
+  font-weight: 650;
+  font-size: 1.45em;
+  padding-bottom: .2em;
+  border-bottom: 1.5px solid var(--encre);
+  margin-top: 2em;
+}
+
+.md-typeset h3 {
+  color: var(--graphite);
+  font-weight: 650;
+  font-size: 1.15em;
+}
+
+.md-typeset hr {
+  border-bottom: 1px dashed var(--carreau);
+  border-bottom-color: color-mix(in srgb, var(--encre) 25%, transparent);
+  margin: 2.2em 0;
+}
+
+.md-typeset a { text-underline-offset: .18em; }
+.md-typeset a:hover { color: var(--marge); }
+
+/* ---------- En-tête et onglets ---------- */
+
+.md-header,
+.md-tabs { background-color: var(--md-primary-fg-color); }
+
+.md-header__topic:first-child,
+.md-header__title { font-weight: 700; letter-spacing: -.01em; }
+
+.md-tabs__link { font-size: .74rem; opacity: .8; }
+.md-tabs__link--active,
+.md-tabs__link:hover { opacity: 1; }
+.md-tabs__item--active .md-tabs__link {
+  text-decoration: underline;
+  text-decoration-color: var(--surligneur);
+  text-decoration-thickness: 3px;
+  text-underline-offset: .45em;
+}
+
+/* Barre latérale : le texte reste lisible sur les carreaux */
+.md-nav__link--active,
+.md-nav__item .md-nav__link--active { color: var(--marge); font-weight: 600; }
+
+/* ---------- Encadrés : cadres tracés à la règle ---------- */
+
+.md-typeset .admonition,
+.md-typeset details {
+  background-color: var(--fond-encadre);
+  border: 1px solid color-mix(in srgb, var(--graphite) 18%, transparent);
+  border-left: 4px solid var(--c-encadre, var(--encre));
+  border-radius: 0;
+  box-shadow: none;
+  font-size: .82rem;
+}
+
+.md-typeset .admonition-title,
+.md-typeset summary {
+  background-color: transparent !important;
+  font-weight: 650;
+  color: var(--c-encadre, var(--encre));
+  border-bottom: 1px dashed color-mix(in srgb, var(--c-encadre, var(--encre)) 35%, transparent);
+}
+
+.md-typeset .admonition-title::before,
+.md-typeset summary::before { background-color: var(--c-encadre, var(--encre)) !important; }
+
+.md-typeset .definition { --c-encadre: var(--c-def); }
+.md-typeset .theoreme { --c-encadre: var(--c-thm); }
+.md-typeset .propriete { --c-encadre: var(--c-prop); }
+.md-typeset .demo { --c-encadre: var(--c-demo); }
+.md-typeset .demoplus { --c-encadre: var(--c-demoplus); }
+.md-typeset .admis { --c-encadre: var(--c-admis); }
+.md-typeset .lecture { --c-encadre: var(--encre-claire); }
+.md-typeset .tip,
+.md-typeset .success { --c-encadre: var(--vert); }
+.md-typeset .warning { --c-encadre: var(--marge); }
+.md-typeset .info,
+.md-typeset .note,
+.md-typeset .abstract { --c-encadre: var(--encre-claire); }
+
+.md-typeset .admonition,
+.md-typeset details { border-left-color: var(--c-encadre, var(--encre)) !important; }
+
+/* Le théorème est l'encadré le plus important : double cadre */
+.md-typeset .admonition.theoreme {
+  outline: 1px solid color-mix(in srgb, var(--c-thm) 45%, transparent);
+  outline-offset: 3px;
+}
+
+/* ---------- Tableaux ---------- */
+
+.md-typeset table:not([class]) {
+  background-color: var(--fond-encadre);
+  border: 1px solid color-mix(in srgb, var(--graphite) 18%, transparent);
+  border-radius: 0;
+  box-shadow: none;
+  font-size: .78rem;
+}
+.md-typeset table:not([class]) th {
+  background-color: color-mix(in srgb, var(--encre) 8%, var(--fond-encadre));
+  color: var(--encre);
+}
+
+/* ---------- Boutons PDF : étiquettes à l'encre ---------- */
+
+.md-typeset .md-button {
+  border: 1.5px solid var(--encre);
+  border-radius: 0;
+  color: var(--encre);
+  background-color: var(--fond-encadre);
+  font-weight: 600;
+}
+.md-typeset .md-button:hover,
+.md-typeset .md-button:focus {
+  background-color: var(--encre);
+  border-color: var(--encre);
+  color: var(--fond-encadre);
+}
+
+/* ---------- Étoiles de difficulté ---------- */
+
+.etoiles { color: #d99a00; }
+[data-md-color-scheme="slate"] .etoiles { color: var(--surligneur); }
+
+/* ---------- Figures : posées sur une feuille blanche ---------- */
+
+.md-typeset p > img:only-child {
+  background: #ffffff;
+  padding: .4rem;
+  border: 1px solid color-mix(in srgb, var(--graphite) 12%, transparent);
+}
+
+/* ---------- Code ---------- */
+
+.md-typeset pre > code { border-left: 3px solid var(--encre-claire); }
+
+/* ---------- Focus clavier visible ---------- */
+
+.md-typeset a:focus-visible,
+.md-typeset summary:focus-visible,
+.intercalaire:focus-visible {
+  outline: 2px solid var(--marge);
+  outline-offset: 2px;
+}
+
+/* ==========================================================================
+   Page d'accueil
+   ========================================================================== */
+
+.accueil {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
+  gap: 2rem;
+  align-items: center;
+  margin: .5rem 0 2.5rem;
+}
+
+.accueil h1 {
+  font-size: 3.1em;
+  margin: 0 0 .35em;
+  line-height: 1.02;
+}
+
+.accueil .chapeau {
+  font-size: 1.15em;
+  line-height: 1.6;
+  max-width: 32em;
+  margin: 0;
+}
+
+.accueil .figure-accueil {
+  width: 100%;
+  height: auto;
+}
+
+.figure-accueil .axe { stroke: var(--graphite); stroke-width: 1.6; }
+.figure-accueil .courbe { stroke: var(--encre); stroke-width: 3; fill: none; stroke-linecap: round; }
+.figure-accueil .tangente { stroke: var(--marge); stroke-width: 2.2; stroke-linecap: round; }
+.figure-accueil .point { fill: var(--marge); }
+.figure-accueil text {
+  fill: var(--graphite);
+  font-family: var(--md-text-font-family), serif;
+  font-style: italic;
+  font-size: 17px;
+}
+.figure-accueil .etiquette-courbe { fill: var(--encre); }
+.figure-accueil .etiquette-tangente { fill: var(--marge); }
+
+/* Le tracé de la courbe se dessine une fois, au chargement */
+@media (prefers-reduced-motion: no-preference) {
+  .figure-accueil .courbe {
+    stroke-dasharray: 700;
+    stroke-dashoffset: 700;
+    animation: tracer 1.6s ease-out .2s forwards;
+  }
+  .figure-accueil .tangente,
+  .figure-accueil .point,
+  .figure-accueil .etiquette-tangente {
+    opacity: 0;
+    animation: apparaitre .5s ease-out 1.7s forwards;
+  }
+}
+@keyframes tracer { to { stroke-dashoffset: 0; } }
+@keyframes apparaitre { to { opacity: 1; } }
+
+/* ---------- Intercalaires de classeur : un par niveau ---------- */
+
+.intercalaires {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.2rem 0 2rem;
+}
+
+.md-typeset a.intercalaire {
+  display: block;
+  position: relative;
+  margin-top: 1.4rem;
+  padding: 1.1rem 1.1rem 1rem;
+  background: var(--fond-encadre);
+  border: 1.5px solid var(--c-niveau);
+  border-top-width: 6px;
+  color: var(--graphite);
+  text-decoration: none;
+  transition: transform .15s ease;
+}
+
+.md-typeset a.intercalaire .onglet {
+  position: absolute;
+  top: -1.75rem;
+  left: -1.5px;
+  padding: .15rem .9rem .1rem;
+  background: var(--c-niveau);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: .95em;
+}
+
+.md-typeset a.intercalaire:nth-child(2) .onglet { left: 30%; }
+.md-typeset a.intercalaire:nth-child(3) .onglet { left: auto; right: -1.5px; }
+
+.md-typeset a.intercalaire .nombre {
+  display: block;
+  font-size: 2.4em;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--c-niveau);
+}
+
+.md-typeset a.intercalaire .detail {
+  display: block;
+  margin-top: .45rem;
+  font-size: .9em;
+  line-height: 1.45;
+}
+
+.md-typeset a.intercalaire:hover { transform: translateY(-3px); }
+.md-typeset a.intercalaire:hover .nombre { text-decoration: underline; text-decoration-thickness: 2px; }
+
+.intercalaire.seconde { --c-niveau: var(--encre-claire); }
+.intercalaire.premiere { --c-niveau: var(--marge); }
+.intercalaire.terminale { --c-niveau: var(--vert); }
+[data-md-color-scheme="slate"] .md-typeset a.intercalaire .onglet { color: #17201d; }
+
+@media screen and (max-width: 44.9375em) {
+  .accueil { grid-template-columns: 1fr; gap: 1rem; }
+  .accueil h1 { font-size: 2.4em; }
+  .accueil .figure-accueil { max-width: 22rem; justify-self: center; }
+  .intercalaires { grid-template-columns: 1fr; gap: .4rem; }
+  .md-typeset a.intercalaire:nth-child(n) .onglet { left: -1.5px; right: auto; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .md-typeset a.intercalaire { transition: none; }
+}
